@@ -156,18 +156,11 @@ nav{
   font-size: 16px;
   border-radius: 8px;
 }
-.item1 { grid-area: header; }
-
 .grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    ;
-  
+  display: grid;  
   background-color: transparent;
   padding: 8px;
 }
-
 .grid-container > div {
   background-color: transparent;
   text-align: center;
